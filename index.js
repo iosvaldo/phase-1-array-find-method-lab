@@ -1,6 +1,7 @@
 // code your solution here
-function basis(object){
-  return object.result === "W"
+
+function basis(obj){
+  return obj.result === "W"
 }
 function superbowlWin(array){
   const data = array.find(basis);
